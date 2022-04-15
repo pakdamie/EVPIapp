@@ -5,9 +5,7 @@ date: "4/11/2022"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 ### The Full Model 
 

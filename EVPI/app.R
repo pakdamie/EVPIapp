@@ -11,7 +11,7 @@ library(knitr)
 source("SIRCODE.R",local=TRUE)
 source("OutputCalculator.R",local=TRUE)
 source("cm.R",local=TRUE)
-source("equations.Rmd",local=TRUE)
+rmarkdown::render(input = 'equations.Rmd')
 
 ui <- fluidPage(
     titlePanel("What to do in a pandemic?"),
